@@ -11,8 +11,8 @@ COIN_PATH='/usr/local/bin/'
 COIN_TGZ='https://github.com/nashsclay/something/releases/download/v1.0/leisure_mn.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='LeisureCoin'
-COIN_PORT=40005
-RPC_PORT=40006
+COIN_PORT=9333
+RPC_PORT=9334
 
 NODEIP=$(curl -s4 icanhazip.com)
 
